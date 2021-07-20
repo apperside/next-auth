@@ -42,7 +42,12 @@ npm i
 > NOTE: You can add any environment variables to .env.local that you would like to use in your dev app.
 > You can find the next-auth config under`pages/api/auth/[...nextauth].js`.
 
-1. Start the dev application/server and CSS watching:
+4. Prepare the development environment:
+```sh
+npm run dev:setup
+```
+
+5. Start the dev application/server and CSS watching:
 ```sh
 npm run dev
 ```
